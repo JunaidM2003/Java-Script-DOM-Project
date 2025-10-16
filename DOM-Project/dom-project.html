@@ -1,0 +1,80 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>
+        DOM Projects
+    </title>
+    <style> 
+      .subscribe-button{
+        border: none;
+        background-color: rgb(249, 0, 0);
+        color: white;
+        padding: 15px;
+        border-radius: 50px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        cursor: pointer;
+      }
+      .is-subscribed{
+          background-color: lightgray;
+          color: black;
+          cursor: pointer;
+      }
+
+     body {
+      font-family: Arial, Helvetica, sans-serif;
+     }
+     .cost-input{
+      padding: 10px;
+      font-size: 15px;
+     }
+
+     .js-calculate-button{
+      border: none;
+      background-color: green;
+      padding: 13px;
+      color: white;
+      font-size: 15px;
+      cursor: pointer;
+
+     }
+
+
+    </style>
+
+</head>
+<body>
+  <p>YouTube Subscribe Button</p>
+  <button onclick="
+  subscribe();
+  " class="js-subscribe-button subscribe-button">Subscribe
+  </button>
+
+  <p>Amazon Shipping Calculator</p>
+
+  <p>Orders under £40 = +£10 shipping.</p>
+    
+  <p>Orders over $40 = FREE shipping.</p>
+
+
+  <input placeholder="Cost of order" class = "js-cost-input cost-input" onkeydown="
+   handleCost(event)
+    ">
+
+  <button onclick="
+  calculateTotal()
+  "class = "js-calculate-button">Calcuate</button>
+  
+    <p class = "js-total-cost"></p>
+
+  <script src="dom-project.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
