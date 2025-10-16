@@ -64,4 +64,4 @@ These projects effectively demonstrate essential **front-end JavaScript techniqu
 
 1. **Clone or download the repository:**
    ```bash
-   git clone https://github.com/yourusername/dom-manipulation-projects.git
+   https://github.com/JunaidM2003/Java-Script-DOM-Project.git
